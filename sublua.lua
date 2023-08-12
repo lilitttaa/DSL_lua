@@ -1,0 +1,31 @@
+-- {
+-- 	let "_delay" {1},
+-- 	let "_import" {true},
+-- 	let "Loc" {{100, 100, 300}},
+-- 	func "MoveTo"{} {
+-- 		Print {value "1"},
+-- 		ret "1"
+-- 	},
+--     MoveTo {_delay "_delay", _import {true}, Loc {{100,100,300}}, IsJump {true}},
+--     Print {value "1"},
+-- 	assign "a" {1},
+-- 	foreach "a" "b" {1} {
+-- 	}
+-- }
+-- let a= 1
+-- a= 1
+-- if(a>b){
+-- }
+-- for a,b,1 {
+-- }
+-- while a>b {
+-- }
+-- func a() {
+-- }
+-- local function exec_chunk(chunk)
+--     local chunck_info = {}
+--     for i = 1, #chunk do
+--         local expression = chunk[i]
+--         local env = expression[1](expression[2])
+--     end
+-- end
